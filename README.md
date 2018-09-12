@@ -4,6 +4,5 @@ This repository was made with the purpose of learning the Flask framework. It wi
 
 ---
 ### Execution
-To run this application, you'll need Python3 installed (I used Python3.6), and the Flask framework installed aswell. After checking that everything is installed, download this folder, and execute the file "myapp.py" which will run the Flask application.
+To run this application, you'll need Python3 installed (I used Python3.6), and the Flask framework installed aswell, other than that, it will require MySQL, Flask-MySQLdb and WTForms. For this project, the database used is called 'myflaskapp', if it is necessary to change the MySQL variables, they are declared at the 'myapp.py' file. After checking that everything is installed, and that the database is set up, download this folder, and execute the file "myapp.py" which will run the Flask application.
 
-For testing purposes, the file called "data.py" simulates a query result from a relational database, and it is used on the project.
