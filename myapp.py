@@ -60,7 +60,7 @@ def register():
         #commit to db
         mysql.connection.commit()
 
-        #clcose connection
+        #close connection
         cur.close
 
         flash('You are now registered and can log in', 'success')
